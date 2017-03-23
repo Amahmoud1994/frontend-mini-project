@@ -1,0 +1,31 @@
+
+
+.section1 .section-text {
+  background-image: url(../images/snow-ball.jpg);
+  background-size: cover;
+  background-position: 0% 50%;
+  color: white;
+  background-color: gray;
+
+}
+.section1 .section-text a{
+  padding: 10px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  background: white;
+  color: #DC143C;
+}
+
+.section1 h1{
+
+  font-weight: bold;
+}
+.section1 .section-color
+{
+  margin: 0 auto;
+  height: 60vh;
+  background-color: rgba(0, 0, 64, 0.3);
+}
+.section1 h6{
+  color: yellow;
+}

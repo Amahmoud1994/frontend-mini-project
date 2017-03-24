@@ -4,6 +4,10 @@
 .banner__content{
   text-align: center;
 }
+.banner__content .button{
+  margin: 0 7px;
+}
+
 .banner__title{
   font-weight: bold;
   font-size: 4rem;

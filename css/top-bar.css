@@ -1,0 +1,32 @@
+.top-bar{
+  padding-top: 1.3rem;
+}
+.top-bar__upper{
+  height: auto;
+  overflow:auto;
+  border-bottom: 2px solid var(--font-main-color);
+}
+.top-bar__right{
+  float: left;
+  width:33.33333%;
+}
+.top-bar__left{
+  float: left;
+  width:33.33333%;
+}
+.top-bar__mid{
+  float: left;
+  width:33.33333%;
+  text-align: center;
+}
+.top-bar__upper ul{
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+.top-bar__upper ul li{
+  float: left;
+}
+.search-form--right{
+  float: right;
+}

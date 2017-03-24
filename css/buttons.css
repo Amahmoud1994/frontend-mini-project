@@ -4,6 +4,7 @@
 	padding: 7px 12px;
 	border: 1px solid #D5D5D5;
 	background-image: linear-gradient(#EEE, #DDD);
+	/*background-color: var(--button-red-color);*/
 	font: 700 13px/18px Helvetica, arial;
 }
 .button--state-success {

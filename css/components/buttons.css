@@ -1,17 +1,41 @@
 .button {
 	display: inline-block;
 	border-radius: 3px;
-	padding: 7px 12px;
-	border: 1px solid #D5D5D5;
-	background-image: linear-gradient(#EEE, #DDD);
-	/*background-color: var(--button-red-color);*/
-	font: 700 13px/18px Helvetica, arial;
+	padding: 0.8rem 1rem;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0.08rem;
+	cursor: pointer;
+	color: var(--font-main-color);
+	background-color: var(--button-default-color);
+	transition: background 0.8s;
+	-webkit-box-shadow: 2px 2px 2px 0px  var(--button-default-color-dark);
+	-moz-box-shadow: 2px 2px 2px 0px  var(--button-default-color-dark);
+	box-shadow: 2px 2px 2px 0px  var(--button-default-color-dark);
 }
-.button--state-success {
-	color: #FFF;
-	background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
-	border-color: #4A993E;
+.button:hover{
+	color: var(--button-default-color);
+	background-color: var(--font-main-color);
+}
+.button--state-primary {
+	color: white;
+	background-color: var(--button-primary-color);
+	-webkit-box-shadow: 2px 2px 2px 0px  var(--button-primary-color-dark);
+	-moz-box-shadow: 2px 2px 2px 0px  var(--button-primary-color-dark);
+	box-shadow: 2px 2px 2px 0px  var(--button-primary-color-dark);
+}
+.button--state-primary:hover{
+	color: var(--button-primary-color);
+	background-color: white;
 }
 .button--state-danger {
-	color: #900;
+	color: white;
+	background-color: var(--button-danger-color);
+	-webkit-box-shadow: 2px 2px 2px 0px  var(--button-danger-color-dark);
+	-moz-box-shadow: 2px 2px 2px 0px  var(--button-danger-color-dark);
+	box-shadow: 2px 2px 2px 0px  var(--button-danger-color-dark);
+}
+.button--state-danger:hover{
+	color: var(--button-danger-color);
+	background-color: white;
 }

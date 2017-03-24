@@ -1,5 +1,9 @@
 :root{
   --font-main-color: #2E3736;
-  --button-red-color: #FE4E4E;
-  --button-red-color-dark: #AA4557;
+  --button-default-color: #F2EEEF;
+  --button-default-color-dark: #9390AF;
+  --button-primary-color: #007FFF;
+  --button-primary-color-dark: #3C6DCC;
+  --button-danger-color: #FE4E4E;
+  --button-danger-color-dark: #AA4557;
 }

@@ -20,4 +20,4 @@ This will start a server at `localhost:3000` and watch changes you make to any `
 ## Guidelines
 
 ### CSS
-- Please follow [BEM]{http://getbem.com/introduction/}
+- Please follow [BEM](http://getbem.com/introduction/)

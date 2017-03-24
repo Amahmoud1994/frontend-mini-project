@@ -19,5 +19,13 @@ This will start a server at `localhost:3000` and watch changes you make to any `
 
 ## Guidelines
 
+### WorkFlow
+- branch away from `master`
+- do your work
+- when you are done submit a PR to `master`
+- 2 people review the PR and either they
+  1. Request for changes => Apply the changes
+  2. Approve the work => Merge the PR
+
 ### CSS
 - Please follow [BEM](http://getbem.com/introduction/)

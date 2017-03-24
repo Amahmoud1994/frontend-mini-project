@@ -14,10 +14,9 @@
   overflow:auto;
   border-bottom: 2px solid var(--font-main-color);
 }
-.top-bar__right{
+.top-bar__lower{
+  margin-top: 0.8rem;
 }
-.top-bar__mid{
+.logo{
   text-align: center;
-}
-.top-bar__left{
 }

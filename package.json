@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "start": "browser-sync start --server --files='*.html,views/*.html,js/*.js,css/*.css'",
+    "start": "browser-sync start --server --files='*.html,views/*.html,js/*.js,css/*.css,css/components/*.css'",
     "test": ""
   },
   "repository": {

@@ -1,65 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Project1</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/constants.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/components/buttons.css">
     <link rel="stylesheet" href="css/components/top-bar.css">
     <link rel="stylesheet" href="css/components/search-form.css">
+    <link rel="stylesheet" href="css/components/menu.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/buttons.css">
     <script src="js/jquery.js"></script>
-  </head>
-  <body>
-    <nav class="top-bar" role="navigation">
-      <div class="row top-bar__upper">
-        <!-- Right Nav Section -->
-        <div class="small-4 columns">
-          <ul class="social-share">
-            <li class="social-share__item">
-              <a href="#">Item 1</a>
-            </li>
-            <li class="social-share__item">
-              <a href="#">Item 2</a>
-            </li>
-          </ul>
-        </div>
+</head>
 
-        <div class="small-4 columns">
-          <div class="top-bar__mid">
-            Hello
-          </div>
-        </div>
+<body>
+    <header class="jumbotron" role="banner">
+        <nav class="top-bar" role="navigation">
+            <div class="row top-bar__upper">
+                <!-- Right Nav Section -->
+                <div class="small-4 columns">
+                    <!-- Social Share Icons -->
+                    <ul class="social-share">
+                        <li class="social-share__item">
+                            <a href="#">(1)</a>
+                        </li>
+                        <li class="social-share__item">
+                        <li class="social-share__item">
+                            <a href="#">(2)</a>
+                        </li>
+                        <li class="social-share__item">
+                        <li class="social-share__item">
+                            <a href="#">(3)</a>
+                        </li>
+                        <li class="social-share__item">
+                        <li class="social-share__item">
+                            <a href="#">(4)</a>
+                        </li>
+                        <li class="social-share__item">
+                            <a href="#">(5)</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mid Nav Section -->
+                <div class="small-4 columns">
+                    <div class="logo">
+                        <b>Logo</b>
+                    </div>
+                </div>
 
 
-        <!-- Left Nav Section -->
-        <div class="small-4 columns top-bar__left">
-          <ul class="search-form search-form--right">
-            <li class="search-form__item">
-              <a href="#">Item 1</a>
-            </li>
-            <li class="search-form__item">
-              <a href="#">Item 2</a>
-            </li>
-          </ul>
-        </div>
-        <div class="clear">
-        </div>
+                <!-- Left Nav Section -->
+                <div class="small-4 columns">
+                    <!-- Nav Search Form -->
+                    <ul class="search-form search-form--right">
+                        <li class="search-form__item">
+                            <a href="#">Item 1</a>
+                        </li>
+                        <li class="search-form__item">
+                            <a href="#">Item 2</a>
+                        </li>
+                    </ul>
+                </div>
 
-      </div>
-    </nav>
-    <button class="button">
-    	Normal button
-    </button>
-    <button class="button button--state-success">
-    	Success button
-    </button>
-    <button class="button button--state-danger">
-    	Danger button
-    </button>
-    <p>Making the Web Beautiful!</p>
-    <div>Making the Web Beautiful!</div>
-  </body>
+                <!-- Clear -->
+                <div class="clear"></div>
+            </div>
+            <div class="row top-bar__lower">
+                <div class="small-12 columns">
+                    <div class="menu">
+                        <ul class="menu__items">
+                            <li class="menu__item"><a href="">BLOG</a></li>
+                            <li class="menu__item"><a href="">PHOTOGRAPHY</a></li>
+                            <li class="menu__item"><a href="">ABOUT</a></li>
+                            <li class="menu__item"><a href="">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="banner__content">
+                <p class="banner__title">Big Banner Text</p>
+                <p class="banner__sub-title">Lorem ipsum dolor sit amet, <em>consectetur</em> adipisicing elit. Earum, qui?</p>
+                <button class="button">DOWNLOAD</button>
+                <button class="button button--state-success">LEARN MORE</button>
+            </div>
+        </div>
+    </header>
+</body>
+
 </html>

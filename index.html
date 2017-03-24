@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/constants.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/buttons.css">
-    <link rel="stylesheet" href="css/top-bar.css">
+    <link rel="stylesheet" href="css/components/buttons.css">
+    <link rel="stylesheet" href="css/components/top-bar.css">
+    <link rel="stylesheet" href="css/components/search-form.css">
     <script src="js/jquery.js"></script>
   </head>
   <body>
-    <nav class="main-container top-bar" role="navigation">
-      <section class="top-bar__upper">
+    <nav class="top-bar" role="navigation">
+      <div class="row top-bar__upper">
         <!-- Right Nav Section -->
-        <div class="top-bar__right">
+        <div class="small-4 columns">
           <ul class="social-share">
             <li class="social-share__item">
               <a href="#">Item 1</a>
@@ -26,13 +27,15 @@
           </ul>
         </div>
 
-        <div class="top-bar__mid">
-          Hello
+        <div class="small-4 columns">
+          <div class="top-bar__mid">
+            Hello
+          </div>
         </div>
 
 
         <!-- Left Nav Section -->
-        <div class="top-bar__left">
+        <div class="small-4 columns top-bar__left">
           <ul class="search-form search-form--right">
             <li class="search-form__item">
               <a href="#">Item 1</a>
@@ -45,7 +48,7 @@
         <div class="clear">
         </div>
 
-      </section>
+      </div>
     </nav>
     <button class="button">
     	Normal button

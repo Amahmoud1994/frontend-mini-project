@@ -1,0 +1,23 @@
+.top-bar{
+  padding-top: 1.3rem;
+}
+.top-bar ul{
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+.top-bar ul li{
+  float: left;
+}
+.top-bar__upper{
+  height: auto;
+  overflow:auto;
+  border-bottom: 2px solid var(--font-main-color);
+}
+.top-bar__right{
+}
+.top-bar__mid{
+  text-align: center;
+}
+.top-bar__left{
+}

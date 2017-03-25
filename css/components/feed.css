@@ -1,0 +1,40 @@
+.feed {
+    margin-top: 13%;
+}
+
+.feed__title {
+    font-family: 'LatoWebLight';
+}
+.feed__slider-container {
+  height: 50vh;
+  background: var(--primary-color);
+}
+.feed__cards-container {}
+
+.cards {
+  height: auto;
+  overflow: auto;
+  margin: 8% 0%;
+}
+
+.card {
+  float: left;
+  height: 200px;
+  margin: 1% 1.5%;
+  width: 30.333333%;
+  -webkit-box-shadow: 2px 2px 2px 0px  var(--default-color-dark);
+  -moz-box-shadow: 2px 2px 2px 0px  var(--default-color-dark);
+  box-shadow: 2px 2px 2px 0px  var(--default-color-dark);
+  /*background-color: var(--primary-color);*/
+}
+.card-image{
+  height: 180px;
+  background-size: cover;
+}
+.card-caption{
+  height: 20px;
+}
+
+.feed__button {
+    text-align: center;
+}

@@ -89,3 +89,30 @@
 .social-media .share-text{
 float: left;
 }
+
+.related-articles{
+  padding: 10px;
+}
+
+.related-articles h6{
+  padding: 20px;
+}
+
+.related-date ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+}
+
+.related-date li{
+  display: inline-block;
+}
+
+.related-date h6{
+  opacity: 0.5;
+  padding: 5px;
+}
+
+.related-articles hr{
+  opacity: 0.5;
+}

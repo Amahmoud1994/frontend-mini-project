@@ -43,6 +43,7 @@
 .card__title{
   color: var(--font-main-color);
   font-size: 0.6rem;
+  margin-right: 5%;
 }
 .card__title--warn{
   color: var(--warn-color);
@@ -58,6 +59,13 @@
   font-size: 0.75rem;
   font-weight: bold;
   margin-bottom: 5%;
+}
+.summary {
+  color: #C4C4C4;
+  margin: 0 2%;
+}
+.summary--small{
+  font-size: 0.6rem;
 }
 .feed__button {
     text-align: center;

@@ -18,5 +18,9 @@
   margin-top: 0.8rem;
 }
 .logo{
-  text-align: center;
+  height: 35px;
+  width: 35px;
+  background-size: cover;
+  margin: 5px auto;
+  cursor: pointer;
 }

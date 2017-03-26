@@ -1,9 +1,18 @@
 .feed {
-    margin-top: 13%;
+    margin-top: 50px;
 }
-
+.feed--sider{
+  padding-top: 30px;
+}
 .feed__title {
-    font-family: 'LatoWebLight';
+  font-family: 'LatoWebLight';
+  color: var(--font-main-color);
+}
+.feed__title--small{
+  font-family: 'LatoWeb';
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
 }
 .feed__slider-container {
   height: 50vh;
@@ -11,55 +20,6 @@
 }
 .feed__cards-container {}
 
-.cards {
-  height: auto;
-  overflow: auto;
-  margin: 8% 0%;
-}
-
-.card {
-  float: left;
-  min-height: 200px;
-  height: auto;
-  overflow: auto;
-  margin: 1% 1.5%;
-  width: 30.333333%;
-  -webkit-box-shadow: 0px 2px 4px 0px  #ccc;
-  -moz-box-shadow: 0px 2px 4px 0px  #ccc;
-  box-shadow: 0px 2px 4px 0px  #ccc;
-  /*background-color: var(--primary-color);*/
-}
-.card__header, .card__description{
-  padding: 0;
-  margin: 0;
-}
-.card__image{
-  height: 180px;
-  background-size: cover;
-}
-.card__caption{
-  padding: 3% 3%;
-}
-.card__title{
-  color: var(--font-main-color);
-  font-size: 0.6rem;
-  margin-right: 5%;
-}
-.card__title--warn{
-  color: var(--warn-color);
-}
-.card__title--danger{
-  color: var(--danger-color);
-}
-.card__title--primary{
-  color: var(--primary-color);
-}
-.card__description{
-  color: var(--font-main-color);
-  font-size: 0.75rem;
-  font-weight: bold;
-  margin-bottom: 5%;
-}
 .summary {
   color: #C4C4C4;
   margin: 0 2%;

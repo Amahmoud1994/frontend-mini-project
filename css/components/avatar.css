@@ -1,0 +1,46 @@
+.avatar-container{
+  padding: 0 5%;
+  padding-bottom: 50px;
+}
+.avatar{
+  min-height: 30vh;
+  height: auto;
+  text-align: center;
+  overflow: auto;
+  padding: 20px;
+}
+.avatar--white-bg{
+  background: white;
+}
+.avatar__title{
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  color: var(--cyan-color);
+  position: relative;
+  z-index: 1;
+}
+.avatar__title:before{
+  content : "";
+  position: absolute;
+  left    : 45%;
+  bottom  : -5px;
+  height  : 1px;
+  width   : 10%;  /* or 100px */
+  border-bottom: 1px solid var(--cyan-color);
+}
+.avatar__image{
+  border-radius: 90px;
+  width: 130px;
+  height: 130px;
+  background: gray;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 40px auto;
+}
+.avatar__name{
+  font-family: 'LatoWebHeavy';
+  letter-spacing: 0.1rem;
+  color: var(--font-main-color);
+  margin-bottom: 30px;
+}

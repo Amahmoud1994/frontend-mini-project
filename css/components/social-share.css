@@ -1,0 +1,25 @@
+.social-share,.social-share__link {
+  color: var(--font-main-color);
+}
+
+.social-share__item{
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+  border: 2px solid var(--font-main-color);
+  border-radius: 360px;
+  width: 27px;
+  height: 27px;
+  transition: background 0.3s;
+}
+.social-share__item:hover{
+  background: white;
+  border-color: transparent;
+}
+.social-share__item:hover a{
+  font-weight: bold;
+  color: var(--font-main-color);
+}
+.social-share__link{
+  transition: color 0.3s;
+}

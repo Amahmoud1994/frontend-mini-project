@@ -1,0 +1,18 @@
+.search-form{
+
+}
+.search-form--right{
+  float: right;
+}
+.search-form{
+
+}
+.search-form__icon{
+  font-size: 1.2rem;
+  color: var(--font-main-color);
+  transition: font-size 0.1s;
+}
+.search-form__icon:hover{
+  color: var(--font-main-color);
+  font-size: 1.3rem;
+}

@@ -1,0 +1,25 @@
+.footer {
+    background-color: #2E2E2E;
+    padding-top: 2.5rem;
+}
+
+.footer__upper {
+    height: auto;
+    overflow: auto;
+    border-bottom: 2px solid var(--font-main-color);
+}
+
+.footer__logo {
+    height: 75px;
+    width: 75px;
+    background-size: cover;
+}
+.footer__logo,footer__text--white{
+    color: white;
+    font-size: 180%
+}
+
+.footer__text--white {
+    color: white;
+    padding-right: 5.0rem;
+}

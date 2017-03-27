@@ -104,14 +104,20 @@ padding-top: 5%;
 .comment-details .name h6{
 padding-left: 10%;
 float: left;
+margin-bottom: 0;
 }
 .comment-details p{
-  padding-left: 25%;
+  padding-left: 31%;
+  padding-top: 5%;
+  opacity: 0.5;
 }
 .name span{
 padding-right: 35%;
 }
 
+.commentsWord{
+opacity: 0.5;
+}
 .avatar__image{
   float: left;
 }

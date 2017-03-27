@@ -91,37 +91,30 @@ float: left;
 }
 
 
-.section-comments{
-  display: inline-block;
-  color: #333333;
-  text-align: center;
-  background-color: #d9d9d9;
-}
-.section-comments h6{
-}
-.comment-details{
-  display: inline-block;
+.comment{
+margin: 8%;
+overflow: auto;
 }
 
 .comment-details .name{
 text-align: center;
+padding-top: 5%;
 }
 
-.comment-details .name ul{
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-}
-.comment-details .name li{
-display: inline-block;
-}
 .comment-details .name h6{
-padding-left: 5px;
+padding-left: 10%;
+float: left;
 }
-.comment-details .name img{
-padding-left: 20px;
+.comment-details p{
+  padding-left: 25%;
+}
+.name span{
+padding-right: 35%;
 }
 
+.avatar__image{
+  float: left;
+}
 .feed--sider{
   padding-top: 20px;
 }

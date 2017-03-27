@@ -93,7 +93,7 @@ float: left;
 
 .comment{
 margin: 8%;
-overflow: auto;
+margin-top: auto;
 }
 
 .comment-details .name{

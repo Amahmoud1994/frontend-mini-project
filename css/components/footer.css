@@ -18,14 +18,13 @@
     background-size: cover;
 }
 
-.footer__logo,
-footer__text--white {
+.footer__logo,footer__text--white {
     color: white;
     font-size: 180%
 }
 
 .footer__text--white {
-    color: white;
+    color: rgb(191, 191, 191);
     padding-right: 5.0rem;
 }
 

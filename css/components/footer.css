@@ -5,13 +5,6 @@
     /*overflow: auto;*/
 }
 
-.line {
-    overflow: auto;
-    min-height: 2px;
-    background-color: white;
-    margin-right: 27vh;
-    margin-left: 27vh;
-}
 
 .footer__upper {
     height: auto;
@@ -34,4 +27,24 @@ footer__text--white {
 .footer__text--white {
     color: white;
     padding-right: 5.0rem;
+}
+
+.line {
+    overflow: auto;
+    min-height: 2px;
+    background-color: white;
+    margin-right: 27vh;
+    margin-left: 27vh;
+}
+.footer ul{
+ display: inline-block;
+  margin: 0;
+  list-style: none;
+}
+
+.footer ul li{
+  float: left;
+}
+.footer__items{
+    padding-top: 1.5rem;
 }

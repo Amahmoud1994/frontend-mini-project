@@ -1,0 +1,22 @@
+{
+  "name": "frontend-mini-project",
+  "version": "1.0.0",
+  "description": "FrontEnd Project 1",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "browser-sync start --server --files='*.html,views/*.html,js/*.js,css/*.css,css/components/*.css'",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amahmoud1994/frontend-mini-project.git"
+  },
+  "author": "T09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amahmoud1994/frontend-mini-project/issues"
+  },
+  "homepage": "https://github.com/Amahmoud1994/frontend-mini-project#readme"
+}

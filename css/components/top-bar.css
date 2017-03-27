@@ -1,0 +1,38 @@
+.top-bar{
+  padding-top: 1.3rem;
+}
+.top-bar ul{
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+.top-bar ul li{
+  float: left;
+}
+.top-bar__upper{
+  height: auto;
+  overflow:auto;
+  border-bottom: 2px solid var(--font-main-color);
+}
+.top-bar__lower{
+  margin-top: 0.8rem;
+}
+.logo{
+  height: 35px;
+  width: 35px;
+  background-size: cover;
+  margin: 5px auto;
+  cursor: pointer;
+}
+.overlay{
+  background-color: rgba(0,0,0,0);
+  min-height: 100vh;
+  overflow: auto;
+}
+.overlay--gradient{
+  background: rgba(109,152,255,0.5); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgba(109,152,255,0.5) , rgba(134,105,255,0.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(109,152,255,0.5), rgba(134,105,255,0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(109,152,255,0.5), rgba(134,105,255,0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(109,152,255,0.5) , rgba(134,105,255,0.5)); /* Standard syntax */
+}

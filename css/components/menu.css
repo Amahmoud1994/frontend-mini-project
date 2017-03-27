@@ -1,0 +1,29 @@
+.menu {
+  text-align: center;
+}
+.menu__items{
+
+}
+.menu__item{
+  margin: 0 1.0rem;
+}
+.menu__item a{
+  color: white;
+  font-weight: bolder;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  transition: color 0.3s;
+}
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    .menu__item{
+      margin: 0 0.4rem;
+    }
+    .menu__item a{
+      font-size: 0.7rem;
+    }
+}
+
+.menu__item a:hover{
+  color: var(--font-main-color);
+}

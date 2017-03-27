@@ -1,0 +1,59 @@
+.feed {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.feed--sider{
+  padding-top: 30px;
+}
+.feed__image{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 20vh;
+}
+.feed__comment{
+  color: var(--font-main-color);
+  font-size: 1rem;
+  margin-top: 25px;
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+.feed__comment__text{
+  margin-bottom: 10px;
+}
+.feed__title {
+  font-family: 'LatoWebLight';
+  color: var(--font-main-color);
+}
+.feed__title--small{
+  font-family: 'LatoWeb';
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+.feed__slider-container {
+  height: 50vh;
+  background: var(--primary-color);
+}
+.feed__cards-container {}
+.feed__button {
+    text-align: center;
+}
+
+.summary {
+  cursor: pointer;
+  color: #C4C4C4;
+  margin: 0 2%;
+  transition: color 0.3s;
+}
+.summary:hover{
+  color: #333;
+}
+.summary--small{
+  font-size: 0.6rem;
+}
+.summary--medium{
+  font-size: 0.8rem;
+}

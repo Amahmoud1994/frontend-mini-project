@@ -3,12 +3,101 @@
   <head>
     <meta charset="utf-8">
     <title>Article Page</title>
-    <link rel="stylesheet" href="../css/article.css">
+    <link href="../css/latofonts.css" rel="stylesheet" type="text/css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/foundation.min.css">
+    <link rel="stylesheet" href="../css/constants.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/components/top-bar.css">
+    <link rel="stylesheet" href="../css/components/search-form.css">
+    <link rel="stylesheet" href="../css/components/social-share.css">
+    <link rel="stylesheet" href="../css/components/menu.css">
+    <link rel="stylesheet" href="../css/components/banner.css">
+    <link rel="stylesheet" href="../css/components/card.css">
+    <link rel="stylesheet" href="../css/components/avatar.css">
+    <link rel="stylesheet" href="../css/components/feed.css">
+    <link rel="stylesheet" href="../css/components/pagination.css">
+    <link rel="stylesheet" href="../css/components/buttons.css">
+    <link rel="stylesheet" href="../css/components/footer.css">
+    <link rel="stylesheet" href="../css/article.css"> 
+    <script src="../js/jquery.js"></script>
+
 
   </head>
   <body>
+
     <section class="section1">
+    <nav class="top-bar" role="navigation">
+        <div class="row top-bar__upper">
+            <!-- Right Nav Section -->
+            <div class="small-4 columns">
+                <!-- Social Share Icons -->
+                <ul class="social-share">
+                    <li class="social-share__item">
+                        <a class="social-share__link">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="social-share__item">
+                        <a class="social-share__link">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-share__item">
+                        <a class="social-share__link">
+                          <i class="fa fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li class="social-share__item">
+                        <a class="social-share__link">
+                          <i class="fa fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="social-share__item">
+                        <a class="social-share__link">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Mid Nav Section -->
+            <div class="small-4 columns">
+                <div class="logo" style=" background-image: url('../images/logo2.png');">
+
+                </div>
+            </div>
+
+
+            <!-- Left Nav Section -->
+            <div class="small-4 columns">
+                <!-- Nav Search Form -->
+                <ul class="search-form search-form--right">
+                    <li class="search-form__item">
+                        <a class="search-form__icon">
+                          <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Clear -->
+            <div class="clear"></div>
+        </div>
+        <div class="row top-bar__lower">
+            <div class="small-12 columns">
+                <div class="menu">
+                    <ul class="menu__items">
+                        <li class="menu__item"><a href="">BLOG</a></li>
+                        <li class="menu__item"><a href="">PHOTOGRAPHY</a></li>
+                        <li class="menu__item"><a href="">ABOUT</a></li>
+                        <li class="menu__item"><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
         <div class="section-text">
       <div class="section-color">
         <div class="row">
@@ -42,11 +131,12 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
+      <br>
       <h6>Buckingham Palace</h6>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
       </p>
-
+      <br>
       <div class="cat-class">
         <ul>
           <li><h6>MARKETS</h6></li>
@@ -72,49 +162,136 @@
         </div>
       </div>
     </div>
-    <div class="small-4 columns related-articles">
-      <h6>Related Articles</h6>
-      <img src="../images/banner.jpg" alt="" />
-      <div class="related-text">
+    <div class="small-4 medium-3 columns">
+      <div class="feed feed--sider">
+      <h4 class="feed__title feed__title--small">RELATED ARTICLES</h4>
+      <div class="feed__image" style="background-image: url('../images/top-news.png')"></div>
+      <div class="feed__comment">
+        <p class="feed__comment__text">This is the Trader Behind Some of Deutsche Bank's Most Embarrassing Messages</p>
+        <span class="summary summary--medium">
+          <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+        </span>
+        <span class="summary summary--medium">
+          <i class="fa fa-calendar-o" aria-hidden="true"></i> Apr 25, 2015
+        </span>
+      </div>
+      <div class="feed__comment">
+        <p class="feed__comment__text">This is the Trader Behind Some of Deutsche Bank's Most Embarrassing Messages</p>
+        <span class="summary summary--medium">
+          <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+        </span>
+        <span class="summary summary--medium">
+          <i class="fa fa-calendar-o" aria-hidden="true"></i> Apr 25, 2015
+        </span>
+      </div>
+      <div class="feed__comment">
+        <p class="feed__comment__text">This is the Trader Behind Some of Deutsche Bank's Most Embarrassing Messages</p>
+        <span class="summary summary--medium">
+          <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+        </span>
+        <span class="summary summary--medium">
+          <i class="fa fa-calendar-o" aria-hidden="true"></i> Apr 25, 2015
+        </span>
+      </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  pariatur.</p>
-      <div class="related-date">
-        <ul>
-        <li><img src="../images/comment.jpg" alt="" /></li>
-        <li><h6>12</h6></li>
-        <li><img src="../images/date.jpg" alt="" /></li>
-        <li><h6>Apr 25, 2015</h6></li>
-        </ul>
-        <hr>
-      </div>
-      </div>
     </div>
   </div>
 </section>
 
-<section class="section-comments">
-<h6>Comments</h6>
-<hr>
-<div class="comment">
-  <div class="image">
-    <img src="../images/user1.jpg"/>
-  </div>
-  <div class="comment-details">
-    <div class="name">
-      <ul>
-      <li><h6>John Snow</h6></li>
-      <li><img src="../images/date.jpg" alt="" /></li>
-      <li><h6>2 hours ago</h6></li>
-      </ul>
+<section class="gray-bg">
+  <div class="row">
+  <div class="small-3 columns"></div>
+  <br>
+  <div class="small-9 columns">
+    <h6 class="commentsWord">Comments</h6>
+    <hr>
+
+
+    <div class="comment">
+      <div class="avatar__image" style="background-image:url('../images/avatar1.png')"></div>
+      <div class="comment-details">
+        <div class="name">
+          <h6>John Snow</h6>
+          <span class="summary summary--medium">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+          </span>
+        </div>
+        <!-- <div class="clear">
+
+        </div> -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          </p>
+      </div>
+    <hr>
     </div>
-    <div class="text">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-      </p>
+    <div class="comment">
+      <div class="avatar__image" style="background-image:url('../images/avatar2.png')"></div>
+      <div class="comment-details">
+        <div class="name">
+          <h6>Sansa Stark</h6>
+          <span class="summary summary--medium">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+          </span>
+        </div>
+        <!-- <div class="clear">
+
+        </div> -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          </p>
+      </div>
+    <hr>
+    </div>
+    <div class="comment">
+      <div class="avatar__image" style="background-image:url('../images/user1.jpg')"></div>
+      <div class="my-comment">
+        <input type="text" name="comment" placeholder="Your comment...">
+      </div>
+    <hr>
     </div>
   </div>
-<hr>
 </div>
+
 </section>
+
+<section>
+   <div class="footer">
+     <div class="row footer__upper">
+       <div class="small-1 columns">
+         <div class="footer__logo" style=" background-image: url('../images/logo2.png');"></div>
+         <p class="footer__logo text--white">MET</p>
+       </div>
+       <div class="small-10 columns">
+         <p class="footer__logo__text footer__text--white">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, qui? Lorem ipsum dolor sit amet, consectetur adipisicing
+           elit. Earum, qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, qui? Lorem ipsum dolor sit
+           amet, consectetur adipisicing elit. Earum, qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
+           qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+       </div>
+     </div>
+     <div class="line"></div>
+
+     <div class="footer__items">
+       <div class="row footer__lower">
+         <div class="small-6 columns">
+           <ul class="menu__items">
+             <li class="menu__item"><a href="">NEWS</a></li>
+             <li class="menu__item"><a href="">GALLERY</a></li>
+             <li class="menu__item"><a href="">BLOG</a></li>
+             <li class="menu__item"><a href="">ABOUT</a></li>
+             <li class="menu__item"><a href="">CONTACTS</a></li>
+
+           </ul>
+
+         </div>
+         <div class="small-4 columns">
+           <p class="footer__Rights__text footer__text--white">@2015 MET.All Right Reserved.</p>
+         </div>
+       </div>
+
+     </div>
+   </div>
+ </section>
   </body>
 </html>

@@ -1,12 +1,14 @@
 
-
+.menu__item a{
+  color: black;
+}
 .section1 .section-text {
   background-image: url(../images/snow-ball.jpg);
   background-size: cover;
   background-position: 0% 50%;
   color: white;
   background-color: gray;
-
+  height: 150%;
 }
 .section1 .section-text a{
   padding: 10px 16px;
@@ -17,18 +19,19 @@
 }
 
 .section1 h1{
-
   font-weight: bold;
 }
 .section1 .section-color
 {
   margin: 0 auto;
-  height: 60vh;
+  height: 150%;
   background-color: rgba(0, 0, 64, 0.3);
 }
 
 .section1 h6{
   color: yellow;
+  font-size: small;
+  margin-bottom: 0;
 }
 
 .section2 .row{
@@ -37,7 +40,8 @@
 .section2 p{
   width: 100%;
   margin: 0 auto;
-  padding: 30px 0px;
+  opacity: 0.8;
+  padding-top: 30px;
 }
 .section2 h6{
   font-weight: bold;
@@ -61,7 +65,6 @@
 .cat-class li h6{
     font-size: 60%;
     padding: 6px;
-    font-weight: bold;
     color: #333333;
     border-radius: 25px;
     background: #d9d9d9;
@@ -90,60 +93,60 @@
 float: left;
 }
 
-.related-articles{
-  padding: 10px;
-}
 
-.related-articles h6{
-  padding: 20px;
-}
-
-.related-date ul{
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-}
-
-.related-date li{
-  display: inline-block;
-}
-
-.related-date h6{
-  opacity: 0.5;
-  padding: 5px;
-}
-
-.related-articles hr{
-  opacity: 0.5;
-}
-
-.section-comments{
-  display: inline-block;
-  color: #333333;
-  text-align: center;
-  background-color: #d9d9d9;
-}
-.section-comments h6{
-}
-.comment-details{
-  display: inline-block;
+.comment{
+margin: 8%;
+margin-top: auto;
 }
 
 .comment-details .name{
 text-align: center;
+padding-top: 5%;
 }
 
-.comment-details .name ul{
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-}
-.comment-details .name li{
-display: inline-block;
-}
 .comment-details .name h6{
-padding-left: 5px;
+padding-left: 10%;
+float: left;
+margin-bottom: 0;
 }
-.comment-details .name img{
-padding-left: 20px;
+.comment-details p{
+  padding-left: 31%;
+  padding-top: 5%;
+  opacity: 0.5;
+}
+.name span{
+padding-right: 35%;
+}
+
+.commentsWord{
+opacity: 0.5;
+}
+.avatar__image{
+  float: left;
+}
+.feed--sider{
+  padding-top: 20px;
+}
+.feed{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.my-comment input{
+  margin: 15% 9%;
+  width: 60%;
+  padding: 12px 20px;
+  border: 1px solid #F2F2F2;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-style: italic;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.footer__items a{
+  color: white;
+}
+.footer{
+  min-height: 0;
 }

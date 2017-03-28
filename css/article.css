@@ -140,3 +140,7 @@ opacity: 0.5;
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+.footer__items a{
+  color: white;
+}

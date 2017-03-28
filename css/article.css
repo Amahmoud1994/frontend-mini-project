@@ -144,3 +144,6 @@ opacity: 0.5;
 .footer__items a{
   color: white;
 }
+.footer{
+  min-height: 0;
+}

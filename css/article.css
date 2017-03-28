@@ -139,6 +139,9 @@ opacity: 0.5;
   background-color: #F2F2F2;
   border-radius: 4px;
   box-sizing: border-box;
+  font-style: italic;
+  font-weight: bold;
+  opacity: 0.5;
 }
 
 .footer__items a{

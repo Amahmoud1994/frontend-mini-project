@@ -14,6 +14,9 @@
   letter-spacing: 0.1rem;
   transition: color 0.3s;
 }
+.menu__item--black a{
+  color: var(--font-main-color);
+}
 @media (max-width: 768px) {
     /* For mobile phones: */
     .menu__item{
@@ -26,4 +29,7 @@
 
 .menu__item a:hover{
   color: var(--font-main-color);
+}
+.menu__item--black a:hover{
+  color: gray;
 }

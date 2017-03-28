@@ -1,0 +1,26 @@
+.tags-container {
+  background-color: #F4F5F7;
+  min-height: 100vh;
+  text-align: center;
+  overflow: auto;
+  padding: 30px;
+  margin-top: 30px;
+}
+.tags{
+  margin-top: 20px;
+}
+.tag__item{
+  cursor: pointer;
+  color: #aaa;
+  font-size: 0.6rem;
+  float: left;
+  margin:3px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1px 10px;
+  transition: background 0.3s;
+}
+.tag__item:hover{
+  background: #aaa;
+  color: white;
+}

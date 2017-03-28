@@ -30,6 +30,9 @@
 .avatar__title--white,.avatar__text--white{
   color: white;
 }
+.avatar__title--primary{
+  color: var(--primary-color);
+}
 .avatar__title:before{
   content : "";
   position: absolute;

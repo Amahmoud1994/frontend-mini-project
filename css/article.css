@@ -1,12 +1,14 @@
 
-
+.menu__item a{
+  color: black;
+}
 .section1 .section-text {
   background-image: url(../images/snow-ball.jpg);
   background-size: cover;
   background-position: 0% 50%;
   color: white;
   background-color: gray;
-  height: 100%;
+  height: 60vh;
 }
 .section1 .section-text a{
   padding: 10px 16px;
@@ -22,7 +24,7 @@
 .section1 .section-color
 {
   margin: 0 auto;
-  height: 100%;
+  height: 60vh;
   background-color: rgba(0, 0, 64, 0.3);
 }
 

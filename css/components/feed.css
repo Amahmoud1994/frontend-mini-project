@@ -34,8 +34,11 @@
   letter-spacing: 0.2rem;
 }
 .feed__slider-container {
-  height: 50vh;
+  height: 70vh;
   background: var(--primary-color);
+}
+.feed__slider-container .slide{
+  height: 70vh;
 }
 .feed__cards-container {}
 .feed__button {

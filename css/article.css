@@ -6,7 +6,7 @@
   background-position: 0% 50%;
   color: white;
   background-color: gray;
-
+  height: 100%;
 }
 .section1 .section-text a{
   padding: 10px 16px;
@@ -17,18 +17,19 @@
 }
 
 .section1 h1{
-
   font-weight: bold;
 }
 .section1 .section-color
 {
   margin: 0 auto;
-  height: 60vh;
+  height: 100%;
   background-color: rgba(0, 0, 64, 0.3);
 }
 
 .section1 h6{
   color: yellow;
+  font-size: small;
+  margin-bottom: 0;
 }
 
 .section2 .row{
@@ -37,6 +38,7 @@
 .section2 p{
   width: 100%;
   margin: 0 auto;
+  opacity: 0.8;
   padding-top: 30px;
 }
 .section2 h6{
@@ -61,7 +63,6 @@
 .cat-class li h6{
     font-size: 60%;
     padding: 6px;
-    font-weight: bold;
     color: #333333;
     border-radius: 25px;
     background: #d9d9d9;

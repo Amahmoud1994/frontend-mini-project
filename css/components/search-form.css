@@ -11,6 +11,10 @@
   border: 12px solid blue;
   padding: 0px 9px 1px 70px;
 }
+.search-form__icon__active{
+  border: 12px solid blue;
+  padding: 0px 9px 1px 70px;
+}
 .search-form__icon:hover{
   color: var(--font-main-color);
   font-size: 1.3rem;

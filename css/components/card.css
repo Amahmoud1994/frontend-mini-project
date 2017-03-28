@@ -3,7 +3,9 @@
   overflow: auto;
   margin: 8% 0%;
 }
-
+.cards--no-margin{
+  margin: 0;
+}
 .card {
   float: left;
   min-height: 200px;

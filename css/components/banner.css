@@ -4,6 +4,10 @@
 .banner__content{
   text-align: center;
 }
+.banner--with-slider{
+  position: relative;
+  margin-top: 0;
+}
 .banner__content .button{
   margin: 0 7px;
 }

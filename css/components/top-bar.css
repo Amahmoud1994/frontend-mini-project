@@ -1,6 +1,9 @@
 .top-bar{
   padding-top: 1.3rem;
 }
+.top-bar--white{
+  background: white;
+}
 .top-bar ul{
   margin: 0;
   list-style: none;

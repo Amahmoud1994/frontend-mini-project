@@ -1,10 +1,418 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Blog Page</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Project1</title>
+  <link href="../css/latofonts.css" rel="stylesheet" type="text/css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/foundation.min.css">
+  <link rel="stylesheet" href="../css/constants.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components/top-bar.css">
+  <link rel="stylesheet" href="../css/components/search-form.css">
+  <link rel="stylesheet" href="../css/components/social-share.css">
+  <link rel="stylesheet" href="../css/components/menu.css">
+  <link rel="stylesheet" href="../css/components/banner.css">
+  <link rel="stylesheet" href="../css/components/card.css">
+  <link rel="stylesheet" href="../css/components/avatar.css">
+  <link rel="stylesheet" href="../css/components/tags.css">
+  <link rel="stylesheet" href="../css/components/feed.css">
+  <link rel="stylesheet" href="../css/components/pagination.css">
+  <link rel="stylesheet" href="../css/components/slider.css">
+  <link rel="stylesheet" href="../css/components/buttons.css">
+  <link rel="stylesheet" href="../css/components/dropdown.css">
+  <link rel="stylesheet" href="../css/components/footer.css">
+  <script src="../js/jquery.js"></script>
+</head>
+
+<body>
+  <header class="" role="banner">
+    <div class="">
+
+      <nav class="top-bar top-bar--white" role="navigation">
+        <div class="row top-bar__upper">
+          <!-- Right Nav Section -->
+          <div class="small-4 columns">
+            <!-- Social Share Icons -->
+            <ul class="social-share">
+              <li class="social-share__item">
+                <a class="social-share__link">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="social-share__item">
+                <a class="social-share__link">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="social-share__item">
+                <a class="social-share__link">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="social-share__item">
+                <a class="social-share__link">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+              <li class="social-share__item">
+                <a class="social-share__link">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Mid Nav Section -->
+          <div class="small-4 columns">
+            <div class="logo" style=" background-image: url('../images/logo2.png');">
+
+            </div>
+          </div>
+
+
+          <!-- Left Nav Section -->
+          <div class="small-4 columns">
+            <!-- Nav Search Form -->
+            <ul class="search-form search-form--right">
+              <li class="search-form__item">
+                <a class="search-form__icon">
+                  <i class="fa fa-search"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Clear -->
+          <div class="clear"></div>
+        </div>
+        <div class="row top-bar__lower">
+          <div class="small-12 columns">
+            <div class="menu">
+              <ul class="menu__items">
+                <li class="menu__item menu__item--black"><a href="">BLOG</a></li>
+                <li class="menu__item menu__item--black"><a href="">PHOTOGRAPHY</a></li>
+                <li class="menu__item menu__item--black"><a href="">ABOUT</a></li>
+                <li class="menu__item menu__item--black"><a href="">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="banner banner--with-slider">
+        <!-- <div class="banner__content">
+          <p class="banner__title">Big Banner Text</p>
+          <p class="banner__sub-title">Lorem ipsum dolor sit amet, <em>consectetur</em> adipisicing elit. Earum, qui?</p>
+          <button class="button">DOWNLOAD</button>
+          <button class="button button--state-danger">LEARN MORE</button>
+        </div> -->
+
+        <div class="slider">
+            <div class="slider-images-container overlay--gradient">
+                <div class="slide" style="background-image: url(../images/banner0.jpg)"></div>
+                <div class="slide" style="background-image: url(../images/img1.jpg)"></div>
+                <div class="slide" style="background-image: url(../images/img2.jpg)"></div>
+                <div class="slide" style="background-image: url(../images/img3.jpg)"></div>
+                <div class="slide" style="background-image: url(../images/img4.jpg)"></div>
+            </div>
+
+           <ul class="triggers" style="display:none">
+               <li>0</li>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+            </ul>
+
+            <span class="control prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+            <span class="control next"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+      </div>
+    </div>
+    </div>
+  </header>
+  <section>
+    <div class="row">
+      <div class="small-12 medium-4 columns ">
+        <div class="feed dropdown-container ">
+          <div class="dropdown-content">
+            <h5 class="feed__title">Category</h5>
+            <div class="dropdown">
+              <p class="dropdown__title">
+                Sports
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </p>
+              <ul class="dropdown__list">
+                <li class="dropdown___item">
+                  All
+                </li>
+                <li class="dropdown___item">
+                  News
+                </li>
+                <li class="dropdown___item">
+                  Sports
+                </li>
+                <li class="dropdown___item">
+                  Politics
+                </li>
+                <li class="dropdown___item">
+                  Tech
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown-content">
+            <h5 class="feed__title">Sort By</h5>
+            <div class="dropdown">
+              <p class="dropdown__title">
+                Latest
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </p>
+              <ul class="dropdown__list">
+                <li class="dropdown___item">
+                  All
+                </li>
+                <li class="dropdown___item">
+                  News
+                </li>
+                <li class="dropdown___item">
+                  Sports
+                </li>
+                <li class="dropdown___item">
+                  Politics
+                </li>
+                <li class="dropdown___item">
+                  Tech
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="tags-container">
+          <h6 class="avatar__title avatar__title--primary">
+            TAGS
+          </h6>
+          <div class="tags">
+            <span class="tag__item">MARKETS</span><span class="tag__item">BUSINESS</span><span class="tag__item">SPORT</span>
+            <span class="tag__item">SPECIAL REPORTS</span><span class="tag__item">CULTURE</span><span class="tag__item">MARKETS</span>
+          </div>
+        </div>
+      </div>
+      <div class="small-12 medium-8 columns">
+        <div class="feed">
+          <div class="feed__cards-container">
+            <div class="cards cards--no-margin">
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--warn">
+                        TECH
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                      </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card2.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--primary">
+                        NEWS
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                      </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card2.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--primary">
+                          NEWS
+                        </span>
+                  <span class="summary summary--small">
+                          <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                        </span>
+                  <span class="summary summary--small">
+                          <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                        </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards cards--no-margin">
+            <div class="cards cards--no-margin">
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--warn">
+                        TECH
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                      </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card2.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--primary">
+                        NEWS
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                      </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card2.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--primary">
+                          NEWS
+                        </span>
+                  <span class="summary summary--small">
+                          <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                        </span>
+                  <span class="summary summary--small">
+                          <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                        </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cards cards--no-margin">
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--warn">
+                        TECH
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                      </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card2.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--primary">
+                        NEWS
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                      </span>
+                  <span class="summary summary--small">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                      </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__image" style="background-image:url('../images/card2.png')"></div>
+                <div class="card__caption">
+                  <span class="card__title card__title--primary">
+                          NEWS
+                        </span>
+                  <span class="summary summary--small">
+                          <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                        </span>
+                  <span class="summary summary--small">
+                          <i class="fa fa-calendar-o" aria-hidden="true"></i> 2 hours ago
+                        </span>
+                  <p class="card__description">
+                    Apple Watch: Review: You'll Want One, but You Don't Need One
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="feed__button">
+            <button class="button button--state-primary">LOAD MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="footer">
+      <div class="row footer__upper">
+        <div class="small-1 columns">
+          <div class="footer__logo" style=" background-image: url('../images/logo2.png');"></div>
+          <p class="footer__logo text--white">MET</p>
+        </div>
+        <div class="small-10 columns">
+          <p class="footer__logo__text footer__text--white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, qui? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Earum, qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, qui? Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Earum, qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
+            qui? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="footer__items">
+        <div class="row footer__lower">
+          <div class="small-6 columns">
+            <ul class="menu__items">
+              <li class="menu__item"><a href="">NEWS</a></li>
+              <li class="menu__item"><a href="">GALLERY</a></li>
+              <li class="menu__item"><a href="">BLOG</a></li>
+              <li class="menu__item"><a href="">ABOUT</a></li>
+              <li class="menu__item"><a href="">CONTACTS</a></li>
+
+            </ul>
+
+          </div>
+          <div class="small-4 columns">
+            <p class="footer__Rights__text footer__text--white">@2015 MET.All Right Reserved.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <script src="../js/app.js"></script>
+  <script src="../js/main.js"></script>
+
+
+</body>
+
 </html>

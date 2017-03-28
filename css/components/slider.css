@@ -1,0 +1,71 @@
+/* Slider START */
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.slider-container {
+    position: absolute;
+}
+
+.slide {
+    position: relative;
+    float: left;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 120vh;
+}
+
+.control {
+    position: absolute;
+    top: 50%;
+    color: var(--font-main-color);
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.control:hover {
+  background-color: var(--font-main-color);
+  color: white;
+}
+.prev {
+    left: 20px;
+    padding-right: 3px;
+}
+
+.next {
+    right: 20px;
+    padding-left: 3px;
+}
+
+ul.triggers {
+    list-style-type: none;
+    position: absolute;
+    bottom: 10px;
+}
+
+ul.triggers li {
+    float: left;
+    margin: 0 5px;
+    font: bold 16px arial;
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+    padding: 10px;
+}
+
+ul.triggers li.selected {
+    background-color: red;
+    color: #000;
+}
+
+
+/* Slider End */

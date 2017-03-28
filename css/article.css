@@ -8,7 +8,7 @@
   background-position: 0% 50%;
   color: white;
   background-color: gray;
-  height: 60vh;
+  height: 150%;
 }
 .section1 .section-text a{
   padding: 10px 16px;
@@ -24,7 +24,7 @@
 .section1 .section-color
 {
   margin: 0 auto;
-  height: 60vh;
+  height: 150%;
   background-color: rgba(0, 0, 64, 0.3);
 }
 
